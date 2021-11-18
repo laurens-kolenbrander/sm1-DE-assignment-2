@@ -78,7 +78,7 @@ def upload_to_bucket(path_to_file, bucket_name):
 
 def main():
     dates = get_available_dailies()
-    bucket_name = "covid19_twitter"
+    bucket_name = "covid19_twitter2"
     for idx, date in enumerate(dates):
         print(f"{idx}: downloading {date}")
         download_path = get_covid19_twitter(date)
