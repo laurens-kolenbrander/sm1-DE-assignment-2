@@ -29,7 +29,7 @@ def upload_to_bucket(file_name, bucket_name):
 
 
 def main():
-    bucket_name = "covid19_cases"
+    bucket_name = "covid19_cases2"
     file_name = "covid-19-world-cases.csv"
     get_covid19_cases()
     print("Downloaded covid cases data")
